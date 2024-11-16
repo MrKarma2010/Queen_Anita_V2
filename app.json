@@ -8,7 +8,7 @@
 
   "env": {
      "OWNER_NAME": {
-        "description": "Name for Bot Owner",
+        "description": "𝚳𝚪_𝚰𝚭𝐔𝚴𝚫𝄟✮⃝",
         "value": "Queen_Anita-V2",
         "required": true
       },
@@ -111,7 +111,7 @@
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-        "value": "public"
+        "value": "private"
       },
       "PACK_NAME": {
         "description": "Put Sticker Pack_Name.",
