@@ -15,7 +15,7 @@
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
-        "value": "false",
+        "value": "true",
         "required": false
       },
       "USER_IMAGES": {
@@ -26,8 +26,8 @@
   
       "GOODBYE": {
         "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-        "value": "false",
-        "required": false
+        "value": "true",
+        "required": true
       },
       "MENU": {
         "description": "choose 1, 2, 3",
@@ -38,7 +38,7 @@
         "value": "https://i.imgur.com/H4qeXwa.jpeg"
       },
       "BOT_NAME": {
-        "description": " NAME FOR BOT",
+        "description": " 𝚳𝚪_𝚰𝚭𝐔𝚴𝚫𝄟✮⃝",
         "required": false,
         "value": "Queen_Anita-V2"
       },
@@ -99,15 +99,15 @@
       },
       "PREFIX": {
         "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-        "value": "."
+        "value": "$"
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "2349066528353"
+        "value": "50941958910"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoib0lpQ3RSTzIxS0g3ckNnSk81OVltcFd4QnhDMG5naEhrT0RFSDQ0YWgyVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidWlBYkFDcU5pV3dPNUZtbnlhQStNdXE3MnlSK05QOGlkd1p1SUozVEQwST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnR01MdzZRWXFwNmtlUGRLVEVJU2o5R2d2V1ZNTWY0Z2NLVytoYkE4eUZvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMMFBtd1VJNnBybythMHNET3FrYzBSTjJtbW1ZMjdydjRqMEl4d0pDUWpRPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVJWTIvakFEb3ZydlRVRUg5OWlYeEhDcDEzc0pOQkRpV3p2a0NlVFZ3WEU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJTOWg2T2dhaVh5T3hnMkRtRmtXZ2NDaHFpRlBxQ2VCeDRZa0F5TWJNMXc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0ExYUw4aFdqY3BDYmNtYTcrdDZ0L0NRQ2MrQkhWb2xCNFc4WHdRdWprcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQTNjbXhXRGJGSkRGMGZFRllVQ0pnMFd6emVKUStJcEFWSThnZVhpL3RRYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZ0MnA1NWt0cmw0cTdzamZPdldUVVU3TkNZTHlnY2RCTHd0YmIrL1Q0bHg4OXlvT3l0eXNFbW9GbkRxckgyUUNJNmg0L1BVZlpTVTVwS204Z2RXRUJRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTcwLCJhZHZTZWNyZXRLZXkiOiI5cGMrVEtYMVA4bTVGL0tMNUcxL0prR2JrdUtjYmw4S3l6VFZ5WVJoQ0dFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJJNVd0Q3VZMVRTaUJtUkhodWxzeUJBIiwicGhvbmVJZCI6IjFmNDgwOTZmLTVjOGYtNDAxNS1iNjFhLWY0MDUwMDA5OTY0NiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjVkNTYXpZMnV3YlFRY1JxQ3ZDUkE5SXI2U0k9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0ZjTkZ6VlVZSnhkRmlqYUUvTEFCcS9EY01FPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjRRSzFXUUVNIiwibWUiOnsiaWQiOiI1MDk0MTk1ODkxMDo2QHMud2hhdHNhcHAubmV0In0sImFjY291bnQiOnsiZGV0YWlscyI6IkNQanEweXNRMUtuanVRWVlBU0FBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJER0VLdTRBWjBnMHJ5NUJOWHdSZzNtZitDNlJWUVFPL2htMEJ3aGU0S0QwPSIsImFjY291bnRTaWduYXR1cmUiOiJZNDBUNDl1QloxM2E2OWpDSHVrdThTREVQbkNabUpHdWlvVkwrRFpvZzA3ZlZjYVZPdGU0anF1d0k2SkJ4YVZ1S2JXUW52U0IydnJYTTdnNDRHMkdBZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiS29GajMzcTgza1ErNWdXTmNqN2s4Z0kzM0Z0UitQWk5idHNmMS9lK01TbEZZU0lIT0hsVGtzYkxIU0JEKyt0Q0Z1Z3RRVVBINGVyTXJwTWVkQzQwQlE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI1MDk0MTk1ODkxMDo2QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlF4aENydUFHZElOSzh1UVRWOEVZTjVuL2d1a1ZVRUR2NFp0QWNJWHVDZzkifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzE3Nzc3NjcsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBS0lLIn0="
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
